@@ -1,0 +1,16 @@
+.App {
+  min-height: 100vh;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 2rem;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  font-family: var(--font-mono);
+}
+
+footer p {
+  margin-top: 10px;
+}

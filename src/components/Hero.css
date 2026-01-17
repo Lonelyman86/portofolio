@@ -1,0 +1,62 @@
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centered for impact, can be flex-start + padding for left align */
+  padding: 0 10%; /* Responsive padding */
+  background: radial-gradient(circle at 80% 20%, rgba(56, 189, 248, 0.08), transparent 25%),
+              radial-gradient(circle at 10% 80%, rgba(99, 102, 241, 0.08), transparent 25%);
+}
+
+.hero-content {
+  max-width: 1000px;
+}
+
+.greeting {
+  color: var(--accent);
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  font-weight: 400;
+  font-family: var(--font-mono);
+}
+
+.name {
+  font-size: clamp(40px, 8vw, 80px);
+  font-weight: 800;
+  color: var(--text-primary);
+  line-height: 1.1;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: clamp(30px, 8vw, 70px);
+  font-weight: 800;
+  color: var(--text-secondary);
+  line-height: 1.1;
+  margin-bottom: 2rem;
+}
+
+.description {
+  max-width: 540px;
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 3.5rem;
+}
+
+.cta-button {
+  background: transparent;
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  padding: 1.25rem 1.75rem;
+  font-size: 0.9rem;
+  border-radius: 4px;
+  font-family: var(--font-mono);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.cta-button:hover {
+  background: rgba(56, 189, 248, 0.1);
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}

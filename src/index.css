@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@theme {
+  --color-matcha: #88A976;
+  --color-milk: #FEFCF5;
+  --color-cosmic: #0F1218;
+}
+
+:root {
+  --bg-dark: #0F1218; /* Cosmic Black */
+  --bg-card: #1e293b;
+  --text-primary: #FEFCF5; /* Milk White */
+  --text-secondary: #88A976; /* Matcha Green */
+  --accent: #88A976; /* Matcha Green */
+  --accent-glow: rgba(136, 169, 118, 0.5);
+
+  --font-stack: "Inter", system-ui, -apple-system, sans-serif;
+}
+
+body {
+  @apply bg-cosmic text-milk;
+  font-family: var(--font-stack);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+h1,h2,h3,h4 {
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/* Utilities */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  /* Updated gradient to use new colors */
+  background: linear-gradient(to right, var(--text-primary), var(--accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

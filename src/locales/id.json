@@ -1,0 +1,46 @@
+{
+  "translation": {
+    "hero": {
+      "greeting": "Halo, saya",
+      "title": "Saya membangun aplikasi web.",
+      "description": "Saya adalah insinyur perangkat lunak yang berspesialisasi dalam membangun (dan sesekali merancang) pengalaman digital yang luar biasa.",
+      "cta": "Lihat karya saya!"
+    },
+    "nav": {
+      "about": "Tentang",
+      "experience": "Pengalaman",
+      "work": "Karya",
+      "contact": "Kontak"
+    },
+    "experience": {
+      "title": "Pengalaman Saya",
+      "mitratel": {
+        "title": "Backend Junior Web Developer (Magang)",
+        "company": "Mitratel",
+        "period": "2023 - 2024",
+        "description": "Mengembangkan layanan backend dan API."
+      },
+      "japanclub": {
+        "title": "Ketua",
+        "company": "Japan Club",
+        "period": "2023 - 2024",
+        "description": "Memimpin kegiatan klub dan mengorganisir acara."
+      }
+    },
+    "projects": {
+      "title": "Beberapa Karya Saya",
+      "dokugaku": {
+        "title": "DokuGaku",
+        "description": "Dashboard belajar bahasa Jepang yang komprehensif. Fitur termasuk pelacakan pelajaran, daftar kosakata, dan navigasi sumber daya."
+      },
+      "ecommerce": {
+        "title": "Dashboard E-Commerce",
+        "description": "Dashboard komprehensif untuk mengelola produk, pesanan, dan pelanggan. Fitur termasuk visualisasi data real-time."
+      },
+      "chat": {
+        "title": "Aplikasi Chat",
+        "description": "Aplikasi pesan real-time dengan fitur seperti obrolan grup, berbagi file, dan indikator status online."
+      }
+    }
+  }
+}
