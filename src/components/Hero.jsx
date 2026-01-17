@@ -9,7 +9,7 @@ const Hero = () => {
     <section id="hero" className="hero">
       <div className="hero-content">
         <h2 className="greeting text-matcha">{t('hero.greeting')}</h2>
-        <h1 className="name">User Name.</h1>
+        <h1 className="name">Ikhsan Alparizki.</h1>
         <h3 className="title">{t('hero.title')}</h3>
         <p className="description">
           {t('hero.description')}

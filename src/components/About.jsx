@@ -8,7 +8,7 @@ const About = () => {
       <div className="about-content">
         <div className="about-text">
           <p>
-            Hello! My name is [User] and I enjoy creating things that live on the internet.
+            Hello! My name is Ikhsan Alparizki and I enjoy creating things that live on the internet.
             My interest in web development started back in 2018 when I decided to try editing custom themes —
             turns out hacking together HTML & CSS was pretty fun!
           </p>
